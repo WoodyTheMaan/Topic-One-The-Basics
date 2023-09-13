@@ -97,7 +97,57 @@
             favMovie = favMovie.Replace("E", "3");
             Console.WriteLine(favMovie);
             Console.WriteLine("Now, how cool is that?!?!?!?!?!");
+            Thread.Sleep(2000);
+            string quote = "It's over, Anakin! I have the high ground!";
+           Console.WriteLine("It's over, Anakin! I have the high ground!");
+            Console.WriteLine("Click enter to see the qoute above without any vowels!");
+            Console.ReadLine();
+            quote = quote.ToLower();
+            quote = quote.Replace("i", " ");
+            quote = quote.Replace("o", " ");
+            quote = quote.Replace("e", " ");
+            quote = quote.Replace("a", " ");
+            quote = quote.Replace("a", " ");
+            quote = quote.Replace("i", " ");
+            quote = quote.Replace("i", " ");
+            quote = quote.Replace("a", " ");
+            quote = quote.Replace("e", " ");
+            quote = quote.Replace("e", " ");
+            quote = quote.Replace("o", " ");
+            quote = quote.Replace("u", " ");
+            
+            Console.WriteLine(quote);
 
+
+
+
+
+
+            Console.WriteLine("ATST ↓                                                         Imperial Speeder ↓");
+            Console.WriteLine("|'-.--._ _________:                             ");
+            Console.WriteLine("   /      __    __\\                            ");
+            Console.WriteLine("|  _  | [\\_\\= [\\_\\                            ");
+            Console.WriteLine("| |.' '. \\.........|                                 ");
+            Console.WriteLine("| ( <)  ||:       :|_                            ____==========_______                   ");
+            Console.WriteLine("\\ '._.' | :.....: |_(o                          _--____   |    | \"\"  \" \"|       \\    ");
+            Console.WriteLine("'-\\_   \\ .------./                             /  )8}  ^^^| 0  |  =     |  o  0  |         ");
+            Console.WriteLine("\\   ||.---.||  _                                             ");
+            Console.WriteLine("/ \\  '-._|/\\n~~\\n' | \\                                    ");
+            Console.WriteLine("(| []=.--[===[()]===[) |                                   ");
+            Console.WriteLine("<\\_/  \\_______/ _.' /_/                                         ");
+            Console.WriteLine("///            (_/_/                                   ");
+            Console.WriteLine("|\\            [\\                                          ");
+            Console.WriteLine("||:|           | I|                                          ");
+            Console.WriteLine("|::|           | I|                                         ");
+            Console.WriteLine("||:|           | I|                                  ");
+            Console.WriteLine("||:|           : \\:                                     ");
+            Console.WriteLine("|\\:|            \\I                                       ");
+            Console.WriteLine(":/\\:            ([])                                              ");
+            Console.WriteLine("([])             [|                                               ");
+            Console.WriteLine("||              |\\_                                                ");
+            Console.WriteLine("/_\\_            [ -'-.__                                                    ");
+            Console.WriteLine("<]   \\>            \\_____.>                          ");                                
+            Console.WriteLine(" \\__ /");     
 
 
         }
